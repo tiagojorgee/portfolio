@@ -1,0 +1,64 @@
+/* Estilos personalizados para a página de contato */
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background:linear-gradient(150deg, #11185c, #454a77, #51cbe0);
+    box-shadow: 0 0 10px rgba(73, 65, 65, 0.1);
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  form {
+    margin-top: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 1px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid hsl(253, 59%, 38%);
+    border-radius: 20px;
+  }
+
+  .form-group textarea {
+    height: 120px;
+  }
+
+  .form-group button {
+    padding: 10px 30px;
+    background-color: cyan;
+    color: #443e3e;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .form-group button:hover {
+    background-color: rgb(63, 227, 233);
+  }
+
+  .form-group button:active {
+    background-color: #ec1717;
+  }
