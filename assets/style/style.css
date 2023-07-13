@@ -7,7 +7,7 @@
 
 body {
     color: #ededed;
-    background: #0b4266;
+    background: #092f49;
 }
 
 .header {
@@ -16,7 +16,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10px;
-    background: transparent;
+    background: #0b2e57;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -166,6 +166,7 @@ body {
 
 
 .about{
+    background: url(/imagens/bacground1.png)no-repeat;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -173,6 +174,7 @@ body {
 }
 
 .about-img img{
+    
     padding-bottom: 20%;
     max-width: 638px;
     height: auto;
@@ -198,6 +200,181 @@ body {
     line-height: 1.4;
     margin-bottom: 4rem;
 }
+
+#services{
+    color: aliceblue;
+    font-size: 28px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.sub-titulo{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+}
+.sub-titulo span{
+   color: cyan;
+
+}
+
+.container{
+    padding: 90px;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.services-list div{
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: bacground 8.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px cyan, 1px 1px 40px ;
+}
+.services-list div{
+    font-size:50px;
+    margin-bottom: 30px;
+
+}
+.services-list div h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.services-list div a{
+    text-decoration: none;
+    color: #092f49;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.read{
+    display: inline-block;
+    padding: 12px;
+    background: rgb(62, 175, 175);
+    border-radius: 40px;
+    font-size: 10px;
+    color: #0b2e57;
+    letter-spacing: 1px;
+    text-decoration:none ;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px cyan , 0 0 25px cyan;
+}
+.read:hover {
+    background: cyan;
+    color: #001b29;
+    box-shadow:  0 0 20px cyan;
+}
+.services-list div:hover{
+    transform: translate(-10px);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container1{
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
+.headin1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+.bar{
+    font-size: 23px;
+
+}
+.technical-bars .bar{
+    margin-top: 40px 0;
+
+}
+.technical-bars .bar:first-child{
+    margin-top: 0;
+
+}
+.technical-bars .bar:last-child{
+    margin-bottom: 0;
+
+}
+.technical-bars .bar .info{
+    margin-bottom: 5px;
+}
+.technical-bars .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+    animation: showtext 0.5s 1s linear forwards;
+    opacity:0 ;
+}
+.technical-bars .bar .progres-line{
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: #001b29;
+    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+
+}
+@keyframes animate{
+    100%{
+        transform: scaleX(1);
+    }
+}
+.technical-bars .bar .progress-line span{
+    height: 100%;
+    background-color: #8ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1,0,0,5,1)forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -309,6 +486,3 @@ body {
     }
 }
 
-section{
-
-}
