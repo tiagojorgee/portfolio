@@ -7,6 +7,7 @@
 
 body {
     color: #ededed;
+    background: #0b4266;
 }
 
 .header {
@@ -163,6 +164,46 @@ body {
         0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
 }
 
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.about-img img{
+    padding-bottom: 20%;
+    max-width: 638px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+.about-text h2{
+    font-size: 60px;
+}
+.about-text h2 span{
+    color: aqua;
+}
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.about-text p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+
+
+
+
+
 @media(max-width: 450px) {}
 
 @keyframes slideLeft {
@@ -266,4 +307,8 @@ body {
         margin-left: 20px;
         font-size: 18px;
     }
+}
+
+section{
+
 }
