@@ -57,7 +57,7 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(/imagens/bacground1.png)no-repeat;
+    background: #092f49;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -68,6 +68,7 @@ body {
 .home-content {
     max-width: 1500px;
     font-size: 80px;
+    
 
 
 }
@@ -204,8 +205,8 @@ body {
 #services{
     color: aliceblue;
     font-size: 28px;
-    line-height: 1.4;
-    margin-bottom: 4rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
 }
 .sub-titulo{
     text-align: center;
@@ -218,13 +219,13 @@ body {
 }
 
 .container{
-    padding: 90px;
+    padding: 100px;
 }
 .services-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
+    grid-gap: 30px;
+    margin-top: 40px;
 }
 .services-list div{
     background-color: transparent;
@@ -237,7 +238,7 @@ body {
     box-shadow: 1px 1px 20px cyan, 1px 1px 40px ;
 }
 .services-list div{
-    font-size:50px;
+    font-size:35px;
     margin-bottom: 30px;
 
 }
@@ -245,10 +246,13 @@ body {
     font-size: 30px;
     margin-bottom: 15px;
 }
+.services-list div p{
+    font-size: 20px;
+}
 .services-list div a{
     text-decoration: none;
     color: #092f49;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 20px;
     display: inline-block;
 }
@@ -273,7 +277,8 @@ body {
     box-shadow:  0 0 20px cyan;
 }
 .services-list div:hover{
-    transform: translate(-10px);
+    transform: translate(-10px );
+    tra
 }
 section{
     display: flex;
