@@ -7,7 +7,7 @@
 
 body {
     color: #ededed;
-    background: #092f49;
+    background: #051129;
 }
 
 .header {
@@ -16,7 +16,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10px;
-    background: #0b2e57;
+    background: #051129;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +57,7 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: #092f49;
+    background: #051129;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -167,26 +167,26 @@ body {
 
 
 .about{
-    background: url(/imagens/bacground1.png)no-repeat;
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
 }
 
-.about-img img{
+.about-img{
     
     padding-bottom: 20%;
-    max-width: 638px;
-    height: auto;
+    max-width: 630px;
+    height: 850px;
     width: 100%;
-    border-radius: 8px;
+    
 }
 .about-text h2{
     font-size: 60px;
 }
 .about-text h2 span{
-    color: aqua;
+    color: #0ef;
 }
 .about-text h4{
     font-size: 29px;
@@ -204,9 +204,9 @@ body {
 
 #services{
     color: aliceblue;
-    font-size: 28px;
-    line-height: 1.2;
-    margin-bottom: 2rem;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
 }
 .sub-titulo{
     text-align: center;
@@ -278,14 +278,16 @@ body {
 }
 .services-list div:hover{
     transform: translate(-10px );
-    tra
+    
 }
 section{
     display: flex;
     flex-wrap: wrap;
-
+    
 }
+
 .container1{
+    
     width: 600px;
     height: 500px;
     padding: 75px 90px;
