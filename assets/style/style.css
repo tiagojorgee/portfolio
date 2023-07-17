@@ -804,8 +804,14 @@ top i{
 
 /* Estilos gerais */
 
-/* Estilos para dispositivos móveis */
-@media only screen and (max-width: 767px) {
+/* Defina a largura máxima do conteúdo principal */
+
+  
+  /* Estilos do cabeçalho */
+ 
+  
+  /* Estilos para dispositivos móveis */
+  @media only screen and (max-width: 767px) {
     /* Aplique estilos específicos para dispositivos com largura de tela até 767px */
   
     /* Estilos do cabeçalho */
