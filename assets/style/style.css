@@ -631,7 +631,7 @@ section {
     align-items: center;
     gap: 3rem;
     padding-left: 30px;
-    margin-top: 130px;
+    margin-top: 300px;
 
 }
 .contato-text h2{
@@ -646,7 +646,8 @@ section {
 }
 
 .contato-text h4{
-    margin: 15px 0;
+    text-align: center;
+    margin: 20px 0;
     color: rgb(220, 220, 220 );
     font-size: 20px;
     font-weight: 600;
@@ -656,7 +657,7 @@ section {
     color: rgb(177,177,177);
     font-size: 20px;
     line-height: 30px;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .contato-list{
     margin-bottom: 3rem;
