@@ -326,7 +326,7 @@ section{
     animation: showText 0.5s 1s linear forwards;
     opacity:0 ;
 }
-.Technical-bars .bar .progress-line{
+.Technical-bars .bar .linha-progresso{
     position: relative;
     border-radius: 10px;
     width: 100%;
@@ -343,7 +343,7 @@ section{
         transform: scaleX(1);
     }
 }
-.Technical-bars .bar .progress-line span{
+.Technical-bars .bar .linha-progresso span{
     height: 100%;
     background-color: #0ef;
     position: absolute;
@@ -352,57 +352,57 @@ section{
     transform: scaleX(0);
     transform-origin: left;
 }
-.progress-line.html span{
+.linha-progresso.html span{
     width: 90%;
 }
-.progress-line.css span{
-    width: 75%;
-}
-.progress-line.javascript span{
-    width: 65%;
-}
-.progress-line.python span{
-    width: 80%;
-}
-.progress-line.react span{
+.linha-progresso.css span{
     width: 60%;
 }
-.progress-line.c span{
+.linha-progresso.javascript span{
+    width: 85%;
+}
+.linha-progresso.python span{
+    width: 50%;
+}
+.linha-progresso.react span{
+    width:75%;
+}
+.linha-progresso.c span{
     width: 60%;
 }
-.progress-line span::after{
+.linha-progresso span::after{
     position: absolute;
-    padding: 1px 0px;
+    padding: 1px 8px;
     background-color: #000 ;
     color: #fff;
-    font-size: 12ppxx;
+    font-size: 12px;
     border-radius: 3px;
-    top: -20px;
+    top: -28px;
     right: -20px;
     animation: showText 0.5s 1.5s linear forwards;
     opacity: 0;
 }
-.progress-line.html span::after{
+.linha-progresso.html span::after{
     content: "90%";
 }
-.progress-line.css span::after{
+.linha-progresso.css span::after{
     content: "60%";
 }
-.progress-line.javascript span::after{
-    content: "65%";
+.linha-progresso.javascript span::after{
+    content: "85%";
 }
-.progress-line.python span::after{
+.linha-progresso.python span::after{
     content: "75%";
 }
-.progress-line.react span::after{
+.linha-progresso.react span::after{
     content: "80%";
 }
-.progress-line.c span::after{
+.linha-progresso.c span::after{
     content: "60%";
 }
 
-.progress-line span::before{
-    color:"" ;
+.linha-progresso span::before{
+    content: "";
     position: absolute;
     width: 0;
     height: 0;
@@ -423,9 +423,9 @@ section{
 .radial-bars{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
 }
 .radial-bars .radial.bar{
     width: 50%;
