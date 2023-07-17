@@ -283,98 +283,114 @@ body {
     transform:  translateY(-10px);
     
 }
-section{
+section {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
-.container1{
+.container1 {
     width: 600px;
     height: 500px;
     padding: 75px 90px;
     margin-left: 120px;
+
 }
-.heading1{
+
+.heading1 {
     text-align: center;
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 5px;
     margin-bottom: 50px;
+
 }
-.bar{
+
+.bar {
     font-size: 23px;
 
 }
-.Technical-bars .bar{
-    margin-top: 40px 0;
+
+.Technical-bars .bar {
+    margin: 40px 0;
 
 }
-.Technical-bars .bar:first-child{
+
+.Technical-bars .bar:first-child {
     margin-top: 0;
 
 }
-.Technical-bars .bar:last-child{
+
+.Technical-bars .bar:last-child {
     margin-bottom: 0;
 
 }
-.Technical-bars .bar .info{
+
+.Technical-bars .bar .info {
     margin-bottom: 5px;
 }
-.Technical-bars .bar .info span{
+
+.Technical-bars .bar .info span {
     font-size: 17px;
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
-    opacity:0 ;
+    opacity: 0;
 }
-.Technical-bars .bar .linha-progresso{
+
+.Technical-bars .bar .progress-line {
     position: relative;
     border-radius: 10px;
     width: 100%;
     height: 5px;
-    background-color: #000000;
-    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
+    background-color: #000;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
     transform: scaleX(0);
     transform-origin: left;
 
 }
 
-@keyframes animate{
-    100%{
+@keyframes animate {
+    100% {
         transform: scaleX(1);
     }
 }
-.Technical-bars .bar .linha-progresso span{
+
+.Technical-bars .bar .progress-line span {
     height: 100%;
     background-color: #0ef;
     position: absolute;
     border-radius: 10px;
-    animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
     transform: scaleX(0);
     transform-origin: left;
 }
-.linha-progresso .html span{
+.progress-line.html span{
     width: 90%;
+
 }
-.linha-progresso .css span{
+.progress-line.css span{
     width: 60%;
+    
 }
-.linha-progresso .javascript span{
+.progress-line.javascript span{
     width: 85%;
+    
 }
-.linha-progresso .python span{
+.progress-line.python span{
     width: 50%;
+    
 }
-.linha-progresso .react span{
-    width:75%;
+.progress-line.react span{
+    width: 75%;
+    
 }
-.linha-progresso .c span{
-    width: 60%;
+.progress-line.c span{
+    width: 55%;
 }
-.linha-progresso span::after{
+.progress-line span::after{
     position: absolute;
     padding: 1px 8px;
-    background-color: #000 ;
+    background-color: #000;
     color: #fff;
     font-size: 12px;
     border-radius: 3px;
@@ -383,26 +399,26 @@ section{
     animation: showText 0.5s 1.5s linear forwards;
     opacity: 0;
 }
-.linha-progresso.html span::after{
+.progress-line.html span::after{
     content: "90%";
 }
-.linha-progresso.css span::after{
+.progress-line.css span::after{
     content: "60%";
 }
-.linha-progresso.javascript span::after{
+.progress-line.javascript span::after{
     content: "85%";
 }
-.linha-progresso.python span::after{
+.progress-line.python span::after{
     content: "75%";
 }
-.linha-progresso.react span::after{
+.progress-line.react span::after{
     content: "80%";
 }
-.linha-progresso.c span::after{
+.progress-line.c span::after{
     content: "60%";
 }
 
-.linha-progresso span::before{
+.progress-line span::before{
     content: "";
     position: absolute;
     width: 0;
@@ -504,7 +520,7 @@ section{
     }
 }
 
-.radial-bar .porcentagem{
+.radial-bar .percentage{
     position: absolute;
     top: 50%;
     left: 50px;
@@ -802,46 +818,3 @@ top i{
     }
 }
 
-/* Estilos gerais */
-
-/* Defina a largura máxima do conteúdo principal */
-
-  
-  /* Estilos do cabeçalho */
- 
-  
-  /* Estilos para dispositivos móveis */
-  @media only screen and (max-width: 767px) {
-    /* Aplique estilos específicos para dispositivos com largura de tela até 767px */
-  
-    /* Estilos do cabeçalho */
-    .navbar {
-      flex-direction: column;
-    }
-  
-    .navbar a {
-      margin: 10px 0;
-    }
-  
-    /* Estilos da seção home */
-    .home-content {
-      padding: 20px;
-    }
-  
-    /* Outros ajustes necessários para dispositivos móveis */
-  }
-  
-  /* Estilos para tablets e dispositivos com tela média */
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* Aplique estilos específicos para dispositivos com largura de tela entre 768px e 1023px */
-  
-    /* Ajustes de layout, tamanhos de fonte, margens, etc. para uma melhor visualização em tablets e dispositivos de tela média */
-  }
-  
-  /* Estilos para dispositivos de tela grande e desktops */
-  @media only screen and (min-width: 1024px) {
-    /* Aplique estilos específicos para dispositivos com largura de tela acima de 1024px */
-  
-    /* Ajustes de layout, tamanhos de fonte, margens, etc. para uma melhor visualização em dispositivos de tela grande e desktops */
-  }
-  
