@@ -802,4 +802,40 @@ top i{
     }
 }
 
+/* Estilos gerais */
 
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 767px) {
+    /* Aplique estilos específicos para dispositivos com largura de tela até 767px */
+  
+    /* Estilos do cabeçalho */
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar a {
+      margin: 10px 0;
+    }
+  
+    /* Estilos da seção home */
+    .home-content {
+      padding: 20px;
+    }
+  
+    /* Outros ajustes necessários para dispositivos móveis */
+  }
+  
+  /* Estilos para tablets e dispositivos com tela média */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Aplique estilos específicos para dispositivos com largura de tela entre 768px e 1023px */
+  
+    /* Ajustes de layout, tamanhos de fonte, margens, etc. para uma melhor visualização em tablets e dispositivos de tela média */
+  }
+  
+  /* Estilos para dispositivos de tela grande e desktops */
+  @media only screen and (min-width: 1024px) {
+    /* Aplique estilos específicos para dispositivos com largura de tela acima de 1024px */
+  
+    /* Ajustes de layout, tamanhos de fonte, margens, etc. para uma melhor visualização em dispositivos de tela grande e desktops */
+  }
+  
