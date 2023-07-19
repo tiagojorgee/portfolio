@@ -224,6 +224,9 @@ body {
 }
 
 .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 100px;
 }
 .services-list{
@@ -825,11 +828,6 @@ top i{
 
 /* Estilos padrão para todas as telas*/
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
 
 /* Estilos para telas de celular */
 @media (max-width: 767px) {
