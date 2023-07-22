@@ -56,22 +56,22 @@ body {
 .home {
     position: relative;
     width: 100%;
-    
     justify-content: space-between;
     height: 100vh;
     background: #051129;
     background-size: cover;
     background-position: center;
-    display: flex;
+    display: flexbox;
     align-items: center;
     padding: 100px 120px 0;
 }
 
 .home-content {
     
-    display: flexbox;
-    flex-direction: column;
-    max-width: 1500px;
+    display:flexbox;
+    max-width: 1400px;
+    min-width: 412px;
+    margin-left: -50px;
     font-size: 80px;
     
 
@@ -79,7 +79,7 @@ body {
 }
 
 .home-content h3 {
-    font-size: 32px;
+    font-size: 42px;
     font-weight: 700;
     opacity: 0;
     animation: slideBotton 1s ease forwards;
@@ -105,9 +105,10 @@ body {
 }
 
 .home-content h1 {
-    font-size: 56px;
-    font-weight: 700;
-    margin: -3px 0;
+    font-size: 70px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+
     opacity: 0;
     animation: slideRight 1s ease forwards;
     animation-delay: 1s
@@ -172,32 +173,24 @@ body {
 
 
 .about{
-    
-    display: flexbox;
-    flex-wrap: wrap;
-    align-items: center;
-
-    gap: 1.5rem;
-}
-
-.about-img{
-    
-    padding-bottom: 20%;
-    max-width: 630px;
-    height: 850px;
     width: 100%;
-    
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: -150px;
+    margin-bottom: 200px;
 }
+
 .about-text h2{
-    font-size: 60px;
+    font-size: 80px;
 }
 .about-text h2 span{
     color: #0ef;
 }
 .about-text h4{
-    font-size: 29px;
+    font-size: 40px;
     font-weight: 600;
-    color: #fff;
+    color: #084175;
     line-height: 1.7;
     margin: 15px 0 30px;
 }
@@ -234,9 +227,10 @@ body {
     padding: 100px;
 }
 .services-list{
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 80px;
     margin-top: 50px;
 }
 .services-list div{
@@ -291,7 +285,7 @@ body {
     
 }
 section {
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
 
 }
@@ -299,8 +293,10 @@ section {
 .container1{
     display: flexbox;
     flex-wrap: wrap;
+    width:412px;
+    height: 500px;
     padding: 75px 90px;
-    margin-left: 120px;
+    margin-left: 100px;
 
 }
 
@@ -314,7 +310,7 @@ section {
 }
 
 .bar{
-    font-size: 23px;
+    font-size: 20px;
 
 }
 
@@ -445,14 +441,14 @@ section {
     }
 }
 .radial-bars{
-    width: 100%;
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    width: 600px;
+    
+    
 }
 .radial-bars .radial-bar{
-    width: 130px;
+    width: 50%;
     height: 170px;
     margin-bottom: 10px;
     position: relative;
@@ -464,7 +460,7 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50% ) rotate(-90deg);
-    width: 120px;
+    width: 100px;
     height: 160px;
 }
 
@@ -555,8 +551,6 @@ section {
 
 
 .main-text{
-    display: flexbox;
-    flex-wrap: wrap;
     margin-top: 130px;
     margin-top: 200px;
 }
@@ -569,7 +563,6 @@ section {
     color: #0ef;
 }
 .portfolio-content{
-    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(359px, auto));
 }
@@ -637,15 +630,15 @@ section {
 
 .contato{
     display: flexbox;
-    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 3rem;
-    padding-left: 30px;
-    margin-top: 300px;
+    justify-content: center;
+    margin-top: 180px;
+    padding-left: 40px;
+    
 
 }
 .contato-text h2{
-    font-size: 90px;
+    font-size: 50px;
     line-height: 1;
     text-align: center;
 
@@ -717,15 +710,22 @@ section {
     box-shadow: 0 0 20px cyan;
 }
 .contato-form form{
+    
     position: relative;
+    display: flexbox;
 
 }
 .contato-form form input,form textarea{
     border: none;
     outline: none;
-    width: 90%;
+    width: 400px;
+    text-align: center;
+    display: grid;
+    margin-left: 60px;
     padding: 18px;
-    background: #555557;
+    align-items: center;
+    justify-content: center;
+    background: #070736;
     color: #000;
     font-size: 1rem;
     font-weight: 600;
@@ -867,5 +867,13 @@ top i{
   p {
     font-size: 16px;
   }
+}
+@media(min-width: 412px){
+    .radial-bars{
+        margin-left: -250px;
+    }
+    .about{
+        margin-top: 260px;
+    }
 }
 
