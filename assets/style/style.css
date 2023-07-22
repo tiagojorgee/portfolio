@@ -56,6 +56,7 @@ body {
 .home {
     position: relative;
     width: 100%;
+    
     justify-content: space-between;
     height: 100vh;
     background: #051129;
@@ -67,6 +68,9 @@ body {
 }
 
 .home-content {
+    
+    display: flexbox;
+    flex-direction: column;
     max-width: 1500px;
     font-size: 80px;
     
@@ -169,9 +173,10 @@ body {
 
 .about{
     
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flexbox;
+    flex-wrap: wrap;
     align-items: center;
+
     gap: 1.5rem;
 }
 
@@ -225,7 +230,6 @@ body {
 
 .container{
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 100px;
 }
@@ -287,14 +291,14 @@ body {
     
 }
 section {
-    display: flex;
+    display: flexbox;
     flex-wrap: wrap;
 
 }
 
 .container1{
-    width: 600px;
-    height: 500px;
+    display: flexbox;
+    flex-wrap: wrap;
     padding: 75px 90px;
     margin-left: 120px;
 
@@ -442,13 +446,13 @@ section {
 }
 .radial-bars{
     width: 100%;
-    display: flex;
+    display: flexbox;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
 }
 .radial-bars .radial-bar{
-    width: 50%;
+    width: 130px;
     height: 170px;
     margin-bottom: 10px;
     position: relative;
@@ -551,6 +555,8 @@ section {
 
 
 .main-text{
+    display: flexbox;
+    flex-wrap: wrap;
     margin-top: 130px;
     margin-top: 200px;
 }
@@ -563,6 +569,7 @@ section {
     color: #0ef;
 }
 .portfolio-content{
+    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(359px, auto));
 }
@@ -629,7 +636,7 @@ section {
 
 
 .contato{
-    display: grid;
+    display: flexbox;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 3rem;
@@ -841,7 +848,7 @@ top i{
 }
 
 /* Estilos para telas de tablet */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 412px) and (max-width: 914px) {
   h1 {
     font-size: 22px;
   }
