@@ -16,7 +16,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 10%;
     background: #051129;
     display: flex;
     justify-content: space-between;
@@ -58,28 +58,22 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: #051129;
-    background-size: cover;
-    background-position: center;
-    display: flexbox;
+    background: url(/imagens/background-home.png) no-repeat;
+    background-position: right center;
+    background-size:  contain;
+    display: flex;
     align-items: center;
-    padding: 100px 120px 0;
+    padding: 70px 10% 0;
 }
 
 .home-content {
+    max-width: 600px;
     
-    display:flexbox;
-    max-width: 1400px;
-    min-width: 412px;
-    margin-left: -50px;
-    font-size: 80px;
-    
-
 
 }
 
 .home-content h3 {
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 700;
     opacity: 0;
     animation: slideBotton 1s ease forwards;
@@ -105,10 +99,9 @@ body {
 }
 
 .home-content h1 {
-    font-size: 70px; 
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+    font-size: 56px; 
+    font-weight: 700;
+    margin: -3px 0;
     opacity: 0;
     animation: slideRight 1s ease forwards;
     animation-delay: 1s
@@ -241,7 +234,7 @@ body {
     border-right: 10px;
     border-radius: 20px;
     transition: bacground 0.5s, transform 0.5s;
-    box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;
+    box-shadow: 1px 1px 20px #0b2fa7f7, 1px 1px 40px #0053b8f7;
 }
 .services-list div i{
     font-size:50px;
