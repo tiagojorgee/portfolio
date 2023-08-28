@@ -207,6 +207,7 @@ section {
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
+  
 }
 
 /* ICONS */
@@ -214,6 +215,7 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  
 }
 
 /* BUTTONS */
@@ -383,7 +385,7 @@ article .icon {
 }
 
 .project-btn {
-  color: black;
+  color: rgb(0, 0, 0);
   border-color: rgb(163, 163, 163);
 }
 
