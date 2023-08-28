@@ -152,3 +152,41 @@ body{
         opacity: 1;
     }
 }
+/* Estilos para telas pequenas */
+@media (max-width: 768px) {
+    .home-content h3 {
+        font-size: 24px;
+    }
+    .home-content h1 {
+        font-size: 40px;
+    }
+    .home-content p {
+        font-size: 16px;
+    }
+}
+
+/* Estilos para telas médias */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .home-content h3 {
+        font-size: 28px;
+    }
+    .home-content h1 {
+        font-size: 48px;
+    }
+    .home-content p {
+        font-size: 18px;
+    }
+}
+
+/* Estilos para telas grandes */
+@media (min-width: 1025px) {
+    .home-content h3 {
+        font-size: 32px;
+    }
+    .home-content h1 {
+        font-size: 56px;
+    }
+    .home-content p {
+        font-size: 20px;
+    }
+}
