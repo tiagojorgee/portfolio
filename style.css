@@ -47,7 +47,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: rgb(81, 83, 83);
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -61,7 +61,7 @@ a:hover {
 
 .logo {
   font-size: 3rem;
-  color: rgb(145, 145, 145);
+  color: rgb(71, 74, 75);
 }
 
 .logo:hover {
@@ -99,9 +99,6 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background: rgba(72, 106, 109, 0.178);
-  box-shadow: 0 8px 32px 0 rgba(117, 241, 250, 0.37),
-  0 16px 64px 0 rgba(6, 94, 177, 0.37);
   backdrop-filter: blur( 13.5px );
   -webkit-backdrop-filter: blur( 13.5px );
   border-radius: 10px;
@@ -424,7 +421,7 @@ article .icon {
 }
 
 .contact-info-container p {
-  font-size: larger;
+  font-size: 20px;
 }
 
 .contact-icon {
