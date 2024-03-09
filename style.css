@@ -9,7 +9,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #081b29;
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(87,192,213,0.6584158415841583) 48%, rgba(124,79,171,0.9579207920792079) 100%);
 }
 
 html {
