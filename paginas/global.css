@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background: rgb(4, 34, 63);
+    background: gray;
 }
 h1{
     display: flex;
